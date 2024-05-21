@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(18, 18, 19);
+    /*background-color: rgb(255, 205, 234);*/
+}
+
+/*#parrafo2 {
+    /*background-color: rgb(236, 182, 227);*/
+ /*} */
+
+.destacado {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    /*background-color:rgb(255, 205, 234);*/
+    color: rgb(93, 53, 135);
+}
+
+#fijo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+body.paginaContacto {
+    background-image: url('../img/SL-011719-17920-65.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+}
+
+.pagina {
+    background-image: url('../img/CODI.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+body.nosotros {
+    background-image: url('../img/colorful-abstract-pastel-watercolor-background.jpg'); 
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(93, 53, 135);
+    /*background-color: rgb(255, 209, 227);*/
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nombretitulo {
+    color: rgb(221, 87, 70);
+    font-size: 60px;
+    font-family: fantasy;
+    /*background-color: #5c6bc0;*/
+    /*background-color: rgb(red, green, blue);*/
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+#subtitulo {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 400px;
+    /*margin-left: 100px;*/
+    /*para mover a la derecha */
+}
+
+/*.half {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}*/
+
+#correo {
+    background-color: rgb(255, 196, 112);
+    /*display: block;*/
+}
+
+/* contacto */
+.titulo {
+    color: rgb(93, 53, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35 px;
+    /*text-align: center;*/
+}
+
+label {
+    color:rgb(67, 104, 80);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    color: blue;
+    font-size: 20 px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Formulario */
+.cajaFormulario {
+    background-color: rgba(189, 68, 226, 0.3);
+    width: 30%;
+    height: 540px;
+    padding: 20px;
+    border: rgb(104, 5, 79) 5px double;
+    margin-left: 240px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+body.paginaCursos {
+    background-image: url('../img/Hexagon-background.jpg'); 
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+}
+
+.fadeIn {
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
